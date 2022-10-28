@@ -9,6 +9,11 @@
     android:name="com.google.android.gms.ads.DELAY_APP_MEASUREMENT_INIT"
     android:value="true"/>
 ```
+2. Edit build.gradle
+```
+defaultConfig {
+        multiDexEnabled = true
+```
 **if on Release**
 ```
             shrinkResources true
