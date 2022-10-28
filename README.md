@@ -1,6 +1,12 @@
 # Godot
 1. Edit AndroidManifest.xml
+** handle internete permission **
 ```
+<manifest>
+
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
 <meta-data
     tools:replace="android:value"
     android:name="com.google.android.gms.ads.APPLICATION_ID"
